@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nayanendu Santhosh | Data Science Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts for modern typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      margin: 0; background: linear-gradient(120deg, #eef6fd 0%, #f9f5fa 100%);
+      font-family: 'Montserrat', 'Roboto', Arial, sans-serif; color: #232323;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 36px auto;
+      background: #fff; border-radius: 18px; box-shadow: 0 6px 32px #e3eaf3;
+      padding: 46px 32px;
+    }
+    header {
+      display: flex; align-items: center; gap: 25px;
+      border-bottom: 2px solid #e1e7ee; margin-bottom: 38px; padding-bottom: 18px;
+    }
+    .profile-pic {
+      width: 100px; height: 100px; object-fit: cover;
+      border-radius: 50%; box-shadow: 0 2px 8px #ccd7e0;
+      background: #eef2fa;
+    }
+    .title-block {
+      flex: 1;
+    }
+    h1 {
+      font-size: 2.6em; margin: 0; color: #167fff; font-weight: 700;
+    }
+    .subtitle {
+      color: #646880; font-size: 1.13em; margin-top: 8px;
+    }
+    .contact-links a {
+      color: #155fa0; text-decoration: none; margin-right: 18px;
+      font-weight: 500; font-size: 1.03em;
+      transition: color 0.2s;
+    }
+    .contact-links a:hover { color: #F57C00; }
+    @media (max-width:800px) { .container { padding: 16px; } header { flex-direction: column; gap: 14px; } }
+    h2 {
+      color: #167fff; font-size: 1.4em; margin-top: 46px; border-bottom: 2px solid #e5eaf2; padding-bottom: 4px;
+    }
+    .section { margin-bottom: 24px; }
+    .skills, .languages {
+      display: flex; flex-wrap: wrap; gap: 10px;
+    }
+    .skills span, .languages span {
+      background: #eaf3fc; color: #267fd9;
+      padding: 8px 15px; border-radius: 16px; font-size: 0.99em;
+      box-shadow: 0 2px 8px #e3eaf3;
+    }
+    .project {
+      background: #f7fafd; border-radius: 14px; margin-bottom: 18px;
+      padding: 18px 22px; box-shadow: 0 1px 12px #eff3f9;
+    }
+    .project-title {
+      color: #155fa0; font-size: 1.12em; font-weight: 700; margin-bottom: 4px;
+    }
+    ul { margin: 10px 0 10px 18px; }
+    .achievements { margin-top: 10px; }
+    .languages span { background: #fffbe7; color: #d99c17; }
+    .fa { margin-right: 7px; }
+    .badges { margin: 12px 0; }
+    .badge {
+      display: inline-block; background: #D9F1FA; color: #167fff;
+      border-radius: 14px; padding: 6px 13px; margin-right: 8px; border: 1px solid #aeeafd;
+      font-size: 0.97em; font-weight: 500; box-shadow: 0 1px 8px #f1fcff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Profile Picture" class="profile-pic">
+      <div class="title-block">
+        <h1>Nayanendu Santhosh</h1>
+        <div class="subtitle">Aspiring Data Scientist | BCS, Amrita Vishwa Vidyapeetham</div>
+        <div class="badges">
+          <span class="badge"><i class="fa fa-award"></i>Golden Visa (UAE)</span>
+          <span class="badge"><i class="fa fa-medal"></i>2<sup>nd</sup> Rank (12th CBSE)</span>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:9endusanthosh@gmail.com"><i class="fa fa-envelope"></i>Email</a>
+          <a href="https://www.linkedin.com/in/"><i class="fa fa-linkedin"></i>LinkedIn</a>
+          <span><i class="fa fa-map-marker-alt"></i> Thrissur, Kerala, India</span>
+        </div>
+      </div>
+    </header>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Data science enthusiast passionate about using <b>Python</b>, <b>Machine Learning</b>, and <b>analytics</b> to solve real-world problems. Striving for continuous learning, creativity, and impactful solutions in dynamic, growth-focused environments.
+      </p>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <div class="section">
+        <b>Bachelor of Computer Science, Data Science</b> | Amrita Vishwa Vidyapeetham, Kochi<br>
+        <i>2022 – 2025</i> | CGPA: 9.03
+      </div>
+      <div class="section">
+        <b>Senior Secondary School (CBSE)</b> | Global Indian School, Ajman, UAE<br>
+        <i>2012 – 2022</i> | Grade 12: 95.2% | Grade 10: 94.2%
+      </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="project-title"><i class="fa fa-robot"></i> RotBot: Byte into Freshness</div>
+        <div>
+          <b>Team Lead</b> | Amrita Vishwa Vidyapeetham | 2025<br>
+          IoT-based fruit shelf life and freshness prediction using sensor data and ML
+          <ul>
+            <li>CatBoost ML model with 86% accuracy</li>
+            <li>End-to-end deployment with chatbot assistant</li>
+            <li>Led data modeling, hardware integration, web interface</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title"><i class="fa fa-map-marker-alt"></i> Campus Navigator</div>
+        <div>
+          <b>Leader & Developer</b> | Global Indian School | 2021<br>
+          Tkinter/Python app for instant location lookup and campus mapping
+          <ul>
+            <li>Dynamic navigation for classrooms, libraries, facilities</li>
+            <li>Led team of 4; delivered in 1 month</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title"><i class="fa fa-cloud"></i> Virtual Drive</div>
+        <div>
+          <b>Web Developer</b> | Amrita Vishwa Vidyapeetham | 2024<br>
+          Web-based virtual drive platform and VR learning approach
+          <ul>
+            <li>Built interfaces with HTML, CSS, JS; realtime data via PocketBase</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Scikit-learn</span>
+        <span>Tableau</span>
+        <span>HTML</span>
+        <span>Excel</span>
+        <span>Powerpoint</span>
+        <span>Capcut</span>
+        <span>Word</span>
+      </div>
+      <div style="margin-top:10px; color:#656565;">
+        <b>Soft Skills:</b> Problem Solving, Analytical Thinking, Teamwork, Communication
+      </div>
+    </section>
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Google Digital Marketing (2020)</li>
+        <li>CIR Python Fundamentals (2023)</li>
+        <li>Infosys Basics of Python (2023)</li>
+        <li>IEDC Ethical Hacking Bootcamp (2024)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Achievements</h2>
+      <ul class="achievements">
+        <li>Golden Visa by UAE Government</li>
+        <li>2nd Rank in CBSE Grade 12</li>
+        <li>Top 10 in Grade 10 Boards</li>
+        <li>Elocution and Recitation Awards</li>
+        <li>5+ years Bharatanatyam Training</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <div class="languages">
+        <span>English (Fluent)</span>
+        <span>Malayalam (Fluent)</span>
+        <span>Tamil (Basic)</span>
+        <span>Hindi (Basic)</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
